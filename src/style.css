@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* 
+.entry {
+  margin: auto;
+  position: relative;
+  background-color: lightblue;
+  width: 700px;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.locationimage {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  width: 200px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.info {
+  position: absolute;
+  left: 35%;
+  margin-left: 10px;
+  width: 400px;
+} */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(96, 0, 0);
+  color: white;
+}
+
+.navtext > i {
+  padding-right: 5px;
+}
+
+.navtext {
+  animation: slideIn 3s forwards;
+  transition: animation 3s ease;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.entry {
+  position: relative;
+  margin: auto;
+  display: flex;
+  max-width: 700px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.line {
+  position: absolute;
+  top: 103%;
+  width: 700px;
+  background-color: rgb(111, 111, 111);
+  height: 2px;
+  opacity: 0.3;
+}
+
+.locationimage {
+  width: 300px;
+
+  border-radius: 15px 15px 15px 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px 5px 10px;
+  padding: 0;
+}
+
+.location > i {
+  padding-right: 5px;
+  color: rgb(180, 2, 2);
+}
+
+.location {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+a {
+  position: absolute;
+  display: inline-block;
+  color: rgb(111, 111, 111);
+  text-transform: none;
+  font-size: 12px;
+  right: 10;
+  top: 16;
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.dates {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+}
+
+@media (max-width: 595) {
+  a {
+    position: static;
+  }
+}
