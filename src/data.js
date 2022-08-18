@@ -12,6 +12,28 @@ export default [
   },
   {
     id: 2,
+    title: "Palermo",
+    location: "Italy",
+    googleMapsUrl: "https://goo.gl/maps/9eBjgh5ASFKSt6Nk9",
+    startDate: "1 Jan, 2015",
+    endDate: "8 Jan, 2015",
+    description:
+      "Palermo is the capital of the island of Sicily. In the city, you will find catacombs and royal tombs, brilliant architecture, and the most welcoming people. Meals feature fresh seafood, with recurring dishes including fried anchovies and swordfish. Pictured is Valley of the Temples, located in Agrigento, only a short train ride from Palermo.",
+    imageUrl: "palermo.jpg",
+  },
+  {
+    id: 3,
+    title: "North Shore",
+    location: "Minnesota, USA",
+    googleMapsUrl: "https://goo.gl/maps/atpVyEZAxRJ34KTX6",
+    startDate: "8 Jul, 2021",
+    endDate: "16 Jul, 2021",
+    description:
+      "North Shore references the shore of Lake Superior, the largest of the Great Lakes. Along its shore sits many beautiful state parks, like the Split Rock Lighthouse State Park. This lighthouse was built in response to a storm that wrecked over 20 ships on the jagged rocks of Lake Superior. Minnesota boasts plenty of state parks, and Split Rock is one of its most picturesque. While in Minnesota, we spent as much time outside as possible, as well as visiting a few breweries. ",
+    imageUrl: "minnesota.jpg",
+  },
+  {
+    id: 4,
     title: "Puerto Vallarta",
     location: "Mexico",
     googleMapsUrl: "https://goo.gl/maps/PhMcSY43PD8CwwxP7",
