@@ -38,8 +38,8 @@ nav {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-color: rgb(96, 0, 0);
-  color: white;
+  background-color: rgb(4, 1, 80);
+  color: rgb(144, 248, 144);
 }
 
 .navtext > i {
@@ -92,7 +92,7 @@ nav {
 
 .location > i {
   padding-right: 5px;
-  color: rgb(180, 2, 2);
+  color: rgb(4, 1, 80);
 }
 
 .location {
