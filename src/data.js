@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     title: "Leipzig",
@@ -43,4 +43,17 @@ export default [
       "Puerto Vallarta is a resort town on Mexico’s Pacific coast, in Jalisco state. While there, we visited the Botanical Gardens, went to the Zoologico de Vallarta A.C, shopped at the Mercado Municipal Rio Cuale, and ate and drank at Puerto Vallarta's best restaurants and bars.",
     imageUrl: "PuertoV.jpg",
   },
+  {
+    id: 5,
+    title: "Olympic Peninsula",
+    location: "Washington",
+    googleMapsUrl: "https://goo.gl/maps/fpuL3gfUEYeRkXdBA",
+    startDate: "12 September, 2022",
+    endDate: "20 September, 2022",
+    description:
+      "The Olympic Peninsula is the home of the northwestern most point of the United States, along with a slew of wildlife and beautiful port towns. On our tour of Washington National Parks, we spent time in the gorgeous Olympic National Park, which boasts a variety of scenes, from oceanview to rainforest, with mountains for good measure.",
+    imageUrl: "olympic.jpg",
+  },
 ];
+
+export default data;

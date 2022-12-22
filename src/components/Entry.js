@@ -3,10 +3,14 @@ import React from "react";
 export default function Entry(props) {
   return (
     <div className="entry">
-      <img className="locationimage" src={`./assets/${props.imageUrl}`} />
+      <img
+        className="locationimage"
+        src={require(`/public/assets/${props.imageUrl}`)}
+        alt=""
+      />
       <div className="info">
         <p className="location">
-          <i class="fa-solid fa-compass"></i>
+          <i className="fa-solid fa-compass"></i>
           {props.location}
         </p>
         <a href={`${props.googleMapsUrl}`}>View on Google Maps</a>
@@ -17,7 +21,6 @@ export default function Entry(props) {
         </p>
         <p className="description">{props.description}</p>
       </div>
-      <div className="line"></div>
     </div>
   );
 }
